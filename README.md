@@ -86,6 +86,11 @@ Data modeling
 
 ⁕ Key Performance Drivers: Identified the main factors contributing to product success, offering insights to optimize strategies across different priority levels.
 
+# Dashboard
+
+# View the Sales Analysis Dashboard on Power BI
+
+
 
 
 
