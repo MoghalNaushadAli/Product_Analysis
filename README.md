@@ -1,96 +1,116 @@
-# Power BI Product Sales Analysis Project Overview
+# 💼 Product Sales & Profit Analysis Dashboard
+# 📊 Overview:
 
-# Project Objective:
+This repository showcases a comprehensive Power BI dashboard built to analyze product sales and profitability across multiple dimensions such as regions, product categories, and sales channels. The dashboard includes interactive visualizations and key performance indicators (KPIs) to track total revenue, profit, units sold, and cost management.
 
-The objective of this Power BI project is to analyze and visualize the product sales across different dimensions like year, month, product, country, item type and more. It aims to provide comprehensive insights into sales performance, revenue growth, product priority, and market distribution.
+# Key Business Metrics:
 
-# Title :- Product Sales
-Creatred by :Moghal Naushad Ali Baig
+➤ Total Revenue: $137.35M
 
-# Tool used:-
-Microsoft Excel
+➤ Total Profit: $44.17M
 
-Microsoft Power Query
+➤ Units Sold: 513K
 
-Microsoft Power BI
+➤ Total Cost: $93.18M
 
-Dax Query
+The dashboard provides quarterly and yearly breakdowns of sales and profit trends, offering regional and product-specific insights to aid strategic decision-making.
 
-Data modeling
+# 🎯 Project Objective:
 
+The primary goal of this project is to build an interactive dashboard using Power BI to visualize product sales performance, understand profitability by priority, and gain insights into sales trends across different dimensions like year, product type, country, and sales channels.
 
-# Cleaning and Analyzing using Power Query
+# 🛠️ Tools Used:
 
-⁕ Open Excel and connect to your Sales Analysis Raw Data
+➤ Microsoft Excel: For initial data preparation and cleaning.
 
-⁕ Use Power Query to clean and transform the data
+➤ Power Query: To transform and query the raw data.
 
-⁕ Apply all necessary cleaning steps, such as removing duplicates, renaming columns, and changing data types
+➤ Microsoft Power BI: For building the interactive dashboard.
 
-⁕ Create a parameter to select the desired data based on a specific condition
+➤ DAX Queries: To create dynamic measures and calculations.
 
-⁕ Encapsulate all steps into a function to be reused for future sheets and data
+➤ Data Modeling: For establishing relationships and creating an efficient data structure.
 
-⁕ Load and Apply the cleaned data into Power BI
+# 🧹 Data Cleaning & Preparation :
 
-# Key Features and Elements of the Dashboard:
-# 1.KPIs and Summary Metrics:
+➤ Connect to Sales Analysis Raw Data using Power Query.
 
-⁕ Total Revenue: Displaying the overall revenue, which amounts to 137.35 million units, gives a quick overview of the business's financial performance.
+# Perform essential data cleaning steps:
 
-⁕ Total Profit:cDisplaying the overall profit, which amounts to $44.17 million, gives a clear insight into the business's net gains.
+➤ Remove duplicates
 
-⁕ Total Cost: The total cost stands at $93.18 million, providing a perspective on the expenses incurred during operations.
+➤ Rename columns
 
-⁕ Total Units Sold: With 513K units sold, this metric highlights the scale of the business's product distribution.
+➤ Change data types
 
-# 2.Visualizations:
+Create parameters for dynamic filtering and encapsulate steps into reusable functions.
 
-# Yearly Sales Analysis:
+Load the cleaned data into Power BI for further analysis and visualization.
 
-⁕ Revenue by Year: A line chart shows the yearly revenue trend, emphasizing the business's growth trajectory over time.
+# 🔑 Key Features and Elements of the Dashboard
 
-# 3.Product Performance:
+# 1. KPIs and Summary Metrics:
 
-⁕ Revenue & Profit by Item: A column chart displays revenue and profit for each product, providing a clear visual comparison of performance.
+➤ Total Revenue: $137.35M, providing a quick overview of overall financial performance.
 
-⁕ These visualizations offer valuable insights into which products are driving the most revenue and profitability.
+➤ Total Profit: $44.17M, showcasing net gains.
 
-# 4. Strategic Insights: Profits and Units Sold by Priority
+➤ Total Cost: $93.18M, highlighting the expense structure.
 
-⁕ Profits by Priority: A column chart displays profits for each product, ranked by priority, showcasing the highest-grossing items.
+➤ Total Units Sold: 513K, representing the scale of product distribution.
 
-⁕ Units Sold by Priority: Another column chart illustrates the number of units sold for each product, emphasizing sales performance for top-priority items.
+# 2. Yearly Sales Analysis:
 
-⁕ Strategic Focus: Analyzing these charts provides valuable insights into which high-priority products are driving profitability and sales volume, aiding strategic decision-making.
+➤ Revenue by Year: A line chart illustrating the revenue trend over time, indicating business growth and seasonal patterns.
 
-# 5.Filters and Slicers:
+# 3. Product Performance:
 
-⁕ Country, Sales Channel,Item Type, Year, Month, Quarter,: Interactive filters allow users to drill down into specific data points, enabling more granular analysis of sales data.
+➤ Revenue & Profit by Item: A column chart comparing revenue and profit for each product, helping identify the best-performing items.
 
-# 6.Data Sources:
+# 4. Strategic Insights:
 
-⁕ The data might have been sourced from various internal systems like CRM, ERP, or sales databases, ensuring a comprehensive dataset covering all sales transactions.
+➤ Profits by Priority: A column chart showing profit distribution by product priority (high, low, mid, and critical).
 
-# 7. Data Model and Structure:
+➤ Units Sold by Priority: A visual breakdown of units sold per priority, emphasizing which items contribute most to total sales.
 
-⁕ The project features a well-organized data model with a single table, efficiently capturing key data points like Revenue, Profit, Priority,Products and Dates. This streamlined structure enables accurate analysis across different dimensions within a unified dataset.
+# 5. Sales Channel Performance:
 
-# 8. Insights Generated:
+➤ A balanced split between offline (56%) and online (44%) channels, offering insights into the impact of different sales mediums.
 
-⁕ Profitability by Priority: Profits are closely aligned with product priority, with high-priority items leading, followed by low, mid, and critical priority products.
+# 6. Regional Revenue:
 
-⁕ Impact of Priority: Products ranked by priority show that high-priority items drive both profit and units sold, showcasing their importance to overall performance.
+➤ North America led with $40M, followed by Europe at $33M, making these regions key contributors to overall revenue.
 
-⁕ Sales Channels: Offline sales surpass online sales, emphasizing the strength of physical retail channels in driving revenue.
+# 7. Filters and Slicers:
 
-⁕ Key Performance Drivers: Identified the main factors contributing to product success, offering insights to optimize strategies across different priority levels.
+➤ Interactive filters for Country, Sales Channel, Item Type, Year, Month, and Quarter, allowing users to perform granular analysis and explore specific trends.
 
-# Dashboard
+# 8. Data Model & Structure:
+
+➤ The project features a single-table data model capturing key metrics such as Revenue, Profit, Priority, Products, and Dates. This structure simplifies analysis and ensures fast, reliable insights.
+
+# 💡 Strategic Insights Generated
+
+➤ Profitability by Priority: High-priority products generated the highest profit, followed by low, mid, and critical items, aligning with the product strategy.
+
+➤ Sales Channels: Offline sales are significantly higher than online sales, underscoring the importance of physical channels.
+
+➤ Regional Performance: North America and Europe emerged as the top-performing regions, contributing the majority of revenue and profit.
+
+➤ Key Performance Drivers: Identified the main factors driving product success, providing a basis for optimizing strategies across priority levels.
+
+# 📌 Dashboard Snapshots
 
 # View the Sales Analysis Dashboard on Power BI
+![2024-09-30 (5)](https://github.com/user-attachments/assets/9ec9c11c-89c6-440b-89f3-22fc2b61defc)
+
+![2024-09-30 (6)](https://github.com/user-attachments/assets/4f5fba5a-bec2-4b7b-9819-6b53bae3b1dd)
+
+![Screenshot (48)](https://github.com/user-attachments/assets/c8739725-56c1-4496-b3d8-78c7b6f86247)
 
 
 
+👨‍💻 Created By
+Naushad Ali Baig
 
-
+If you have any feedback or suggestions, feel free to reach out or open an issue in the repository. Happy analyzing!
